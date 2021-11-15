@@ -2,57 +2,58 @@ package com.githab.SvetoldaK.pac;
 
 public class Factory {
 
-    // SuperHero batman() - это обозначение тип значения при возврате возврата, а через пробел имя метода
     public static SuperHero batman() {
         SuperHero batman = new SuperHero();
         batman.setName("Batman");
         batman.setForce(7);
         batman.setUniverse(false);
         batman.setSuperpower("Где детонатор?");
-
-        //Здесь возвращаем созданный объект как бетман
         return batman;
     }
 
-    /*
-    public void hulk() {
+    public static SuperHero hulk() {
         SuperHero hulk = new SuperHero();
         hulk.setName("Hulk");
         hulk.setForce(8);
         hulk.setUniverse(true);
         hulk.setSuperpower("Халк, крушить!");
+        return hulk;
     }
 
-    public void superman() {
+    public static SuperHero superman() {
         SuperHero superman = new SuperHero();
         superman.setName("Superman");
         superman.setForce(7);
         superman.setUniverse(false);
         superman.setSuperpower("Еще как боюсь. Просто принимаю отважный вид.");
+        return superman;
     }
 
-    public void aquaman() {
+    public static SuperHero aquaman() {
         SuperHero aquaman = new SuperHero();
         aquaman.setName("Aquaman");
         aquaman.setForce(6);
         aquaman.setUniverse(false);
         aquaman.setSuperpower("Надо напиться!");
+        return aquaman;
     }
 
-    public void spiderman() {
+    public static SuperHero spiderman() {
         SuperHero spiderman = new SuperHero();
         spiderman.setName("Spiderman");
         spiderman.setForce(9);
         spiderman.setUniverse(true);
         spiderman.setSuperpower("За Мэри Джейн!");
+        return spiderman;
     }
 
-    public void wolverine() {
+    public static SuperHero wolverine() {
         SuperHero wolverine = new SuperHero();
         wolverine.setName("Wolverine");
         wolverine.setForce(5);
         wolverine.setUniverse(true);
         wolverine.setSuperpower("Эй, мне будет очень больно! Это тебя радует?");
+        return wolverine;
     }
-     */
+
 }
