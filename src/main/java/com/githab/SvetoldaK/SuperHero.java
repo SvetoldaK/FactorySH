@@ -13,6 +13,7 @@ public class SuperHero {
     private int force;
     private boolean universe;
     private String superpower;
+
     public String getName() {
         return name;
     }
@@ -67,6 +68,5 @@ public class SuperHero {
                 ", superpower=" + superpower +
                 '}';
     }
-
 
 }
