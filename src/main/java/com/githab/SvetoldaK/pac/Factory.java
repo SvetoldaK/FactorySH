@@ -1,14 +1,20 @@
-package com.githab.SvetoldaK;
+package com.githab.SvetoldaK.pac;
 
 public class Factory {
-    public static void batman() {
+
+    // SuperHero batman() - это обозначение тип значения при возврате возврата, а через пробел имя метода
+    public static SuperHero batman() {
         SuperHero batman = new SuperHero();
         batman.setName("Batman");
         batman.setForce(7);
         batman.setUniverse(false);
         batman.setSuperpower("Где детонатор?");
+
+        //Здесь возвращаем созданный объект как бетман
+        return batman;
     }
 
+    /*
     public void hulk() {
         SuperHero hulk = new SuperHero();
         hulk.setName("Hulk");
@@ -48,4 +54,5 @@ public class Factory {
         wolverine.setUniverse(true);
         wolverine.setSuperpower("Эй, мне будет очень больно! Это тебя радует?");
     }
+     */
 }

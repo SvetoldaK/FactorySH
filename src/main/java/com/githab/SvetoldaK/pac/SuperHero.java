@@ -1,4 +1,4 @@
-package com.githab.SvetoldaK;
+package com.githab.SvetoldaK.pac;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -9,42 +9,11 @@ import java.util.Objects;
 @Setter
 
 public class SuperHero {
+
     private String name;
     private int force;
     private boolean universe;
     private String superpower;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getForce() {
-        return force;
-    }
-
-    public void setForce(int force) {
-        this.force = force;
-    }
-
-    public boolean isUniverse() {
-        return universe;
-    }
-
-    public void setUniverse(boolean marvel) {
-        this.universe = marvel;
-    }
-
-    public String getSuperpower() {
-        return superpower;
-    }
-
-    public void setSuperpower(String superpower) {
-        this.superpower = superpower;
-    }
 
     public boolean equals(Object o) {
         if (this == o) return true;
