@@ -1,4 +1,4 @@
-package com.githab.SvetoldaK.pac;
+package com.githab.SvetoldaK;
 
 public class Factory {
 
@@ -8,6 +8,7 @@ public class Factory {
         batman.setForce(7);
         batman.setUniverse(false);
         batman.setSuperpower("Где детонатор?");
+        batman.fly();
         return batman;
     }
 
@@ -26,6 +27,7 @@ public class Factory {
         superman.setForce(7);
         superman.setUniverse(false);
         superman.setSuperpower("Еще как боюсь. Просто принимаю отважный вид.");
+        superman.fly();
         return superman;
     }
 
@@ -44,6 +46,7 @@ public class Factory {
         spiderman.setForce(9);
         spiderman.setUniverse(true);
         spiderman.setSuperpower("За Мэри Джейн!");
+        spiderman.fly();
         return spiderman;
     }
 
